@@ -18,7 +18,10 @@ bool isPrime(int number)
 
 int isPossibleToChange(int &number)
 {
-
+    if (isPrime(number)) 
+    {
+        return 1;
+    }
     vector<int> variants;
     for (int i = 0; i < 6; i++)
     {
