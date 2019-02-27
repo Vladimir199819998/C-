@@ -1,3 +1,5 @@
+// This program is able to recognize geometric shapes given in bitmask
+
 #include <iostream>
 #include <fstream>
 using namespace std;
